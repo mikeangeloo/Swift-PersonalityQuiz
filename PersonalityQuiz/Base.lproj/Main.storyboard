@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fXN-Ln-fSo">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
@@ -188,7 +188,7 @@
                                 <rect key="frame" x="16" y="329.33333333333331" width="361" height="124.66666666666669"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Fbh-w7-WaA">
-                                        <rect key="frame" x="81.666666666666686" y="0.0" width="198" height="31"/>
+                                        <rect key="frame" x="77.666666666666686" y="0.0" width="206" height="31"/>
                                     </slider>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="94" translatesAutoresizingMaskIntoConstraints="NO" id="Cjn-fy-ENE">
                                         <rect key="frame" x="92.333333333333329" y="50" width="176.66666666666669" height="20.333333333333329"/>
@@ -248,6 +248,21 @@
                     </view>
                     <navigationItem key="navigationItem" id="8Sx-vZ-i9y"/>
                     <connections>
+                        <outlet property="multiLabel1" destination="gSl-rR-FoP" id="38w-Ro-wf0"/>
+                        <outlet property="multiLabel2" destination="yJY-pZ-50L" id="2h6-P8-5ya"/>
+                        <outlet property="multiLabel3" destination="89x-Sj-n5X" id="wpZ-Y0-j0F"/>
+                        <outlet property="multiLabel4" destination="GQM-ap-qrP" id="puC-d9-zHq"/>
+                        <outlet property="multipleStackView" destination="4T3-RO-SHR" id="1SE-HR-CDz"/>
+                        <outlet property="questionLabel" destination="mID-Ai-DKq" id="RPM-iN-Asz"/>
+                        <outlet property="questionProgressView" destination="xFh-SM-GSo" id="laU-1N-Vrw"/>
+                        <outlet property="rangedLabel1" destination="w8U-nZ-X4f" id="OTk-h1-iKO"/>
+                        <outlet property="rangedLabel2" destination="zFF-Va-qc9" id="Y1n-ql-eVb"/>
+                        <outlet property="rangedStackView" destination="IS6-El-aL0" id="D80-C0-VKB"/>
+                        <outlet property="singleButton1" destination="1rx-JR-i1A" id="gM7-Rv-BeL"/>
+                        <outlet property="singleButton2" destination="GWw-vf-5hv" id="3Sw-Hm-rwY"/>
+                        <outlet property="singleButton3" destination="KgE-I6-JUF" id="IBB-cf-b3Q"/>
+                        <outlet property="singleButton4" destination="aTa-vA-XRD" id="Xu9-Yx-A3i"/>
+                        <outlet property="singleStackView" destination="N5d-Od-4Yl" id="K5z-sW-016"/>
                         <segue destination="tqa-NL-3jm" kind="show" identifier="ResultsSegue" id="ncU-bS-5V7"/>
                     </connections>
                 </viewController>
